@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Gizlilik Politikası - Smoff</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoff - Gizlilik Politikası</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
+        h1, h2 { color: #111; border-bottom: 1px solid #eee; padding-bottom: 10px;}
+        a { color: #007bff; text-decoration: none;}
+        a:hover { text-decoration: underline; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .last-updated { color: #666; font-style: italic; margin-bottom: 30px;}
+        .contact-info { background-color: #f8f9fa; padding: 15px; border-radius: 8px; margin-top: 20px;}
+    </style>
 </head>
-<body style="font-family: sans-serif; padding: 20px; max-width: 800px; margin: auto;">
-  <h1>Gizlilik Politikası (Smoff)</h1>
-  <p><strong>Son Güncelleme:</strong> 13 Mayıs 2025</p>
+<body>
+    <h1>Smoff Gizlilik Politikası</h1>
+    <p class="last-updated">Son Güncelleme: 21 Haziran 2025</p>
 
-  <h2>1. Toplanan Bilgiler</h2>
-  <p>Smoff, kullanıcıdan doğrudan <strong>kişisel bilgi talep etmez</strong>. Uygulama içerisinde kullanıcı adı, e-posta adresi veya konum gibi bilgiler toplanmaz.</p>
+    <h2>1. Giriş</h2>
+    <p>Bu gizlilik politikası, Smoff ("Uygulama", "biz", "bizim") tarafından toplanan, kullanılan ve paylaşılan bilgiler hakkında sizi ("Kullanıcı") bilgilendirmektedir. Uygulamamızı indirerek ve kullanarak bu politikada açıklanan uygulamaları kabul etmiş olursunuz.</p>
 
-  <h2>2. Reklamlar ve Üçüncü Taraflar</h2>
-  <p>Uygulama, Google AdMob gibi reklam hizmetleri kullanabilir. Bu hizmetler cihazınıza ait reklam kimliği (IDFA) gibi bazı anonim bilgileri toplayabilir. Bu bilgiler kişisel kimliğinizi tanımlamak için kullanılmaz.</p>
+    <h2>2. Topladığımız Bilgiler</h2>
+    <p>Hizmetlerimizi sunmak ve geliştirmek için çeşitli türde bilgiler toplayabiliriz:</p>
+    <ul>
+        <li><strong>Sizin Sağladığınız Bilgiler:</strong> Uygulamanın temel işlevselliği için girdiğiniz veriler; sigarayı bırakma tarihi ve saati, günde içilen ortalama sigara sayısı ve bir paket sigaranın fiyatı gibi. Bu bilgiler, istatistiklerinizin hesaplanması amacıyla kullanılır ve yalnızca cihazınızda yerel olarak (SharedPreferences kullanılarak) saklanır. Sunucularımıza gönderilmez.</li>
+        <li><strong>Otomatik Olarak Toplanan Bilgiler:</strong> Uygulamayı kullandığınızda, entegre ettiğimiz üçüncü taraf hizmet sağlayıcılarımız aracılığıyla belirli teknik veriler otomatik olarak toplanabilir. Bu veriler şunları içerebilir:
+            <ul>
+                <li><strong>Reklam Kimliği (Ad ID):</strong> Google AdMob tarafından, ilgi alanlarınıza yönelik reklamlar sunmak ve reklam performansını ölçmek için kullanılır.</li>
+                <li><strong>Analiz Verileri:</strong> Firebase Analytics tarafından, uygulama kullanım alışkanlıklarınızı (hangi ekranların ne sıklıkta kullanıldığı gibi) anlamak, performansı izlemek ve hizmetlerimizi iyileştirmek amacıyla anonim veriler toplanır.</li>
+                <li><strong>Kilitlenme Raporları:</strong> Firebase Crashlytics, uygulamanın beklenmedik bir şekilde çökmesi durumunda sorunu tespit etmemize yardımcı olmak için anonim kilitlenme raporları toplar.</li>
+            </ul>
+        </li>
+    </ul>
 
-  <h2>3. Veri Güvenliği</h2>
-  <p>Kullanıcı verileri (eğer varsa) yalnızca cihazınızda saklanır. Herhangi bir sunucuya gönderilmez veya üçüncü taraflarla paylaşılmaz.</p>
+    <h2>3. Bilgileri Nasıl Kullanıyoruz?</h2>
+    <p>Topladığımız bilgileri şu amaçlar için kullanırız:</p>
+    <ul>
+        <li>Uygulamanın temel fonksiyonlarını çalıştırmak: Sigarasız geçen süreyi, içilmeyen sigara sayısını ve edilen tasarrufu hesaplamak.</li>
+        <li>Kullanıcı deneyimini kişiselleştirmek ve geliştirmek.</li>
+        <li>Uygulama içi reklamlar sunmak (Google AdMob).</li>
+        <li>Uygulama performansını ve kullanımını analiz etmek (Firebase Analytics).</li>
+        <li>Teknik hataları ve çökmeleri tespit edip düzeltmek (Firebase Crashlytics).</li>
+    </ul>
 
-  <h2>4. Çocukların Gizliliği</h2>
-  <p>Smoff, 13 yaşın altındaki çocuklara yönelik değildir. 17 yaş üstü kullanıcılar için geliştirilmiştir.</p>
+    <h2>4. Üçüncü Taraf Servisler ve Veri Paylaşımı</h2>
+    <p>Kullanıcı verilerini üçüncü taraflara satmayız veya kiralamayız. Ancak uygulamamız, işlevselliğini sağlamak için aşağıdaki güvenilir üçüncü taraf servislere güvenir. Bu servislerin kendi gizlilik politikaları bulunmaktadır ve verileri nasıl işlediklerini anlamak için bu politikaları incelemenizi öneririz:</p>
+    <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a></li>
+        <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob</a></li>
+        <li><a href="https://firebase.google.com/policies/analytics" target="_blank">Firebase Analytics & Crashlytics</a></li>
+    </ul>
 
-  <h2>5. Gizlilik Politikasında Değişiklikler</h2>
-  <p>Gizlilik politikamızda zaman zaman değişiklik yapabiliriz. Güncellemeler bu sayfa üzerinden duyurulacaktır.</p>
+    <h2>5. Kullanıcı Hakları ve Veri Silme</h2>
+    <p>Uygulama içinde sağladığınız tüm kişisel veriler (bırakma tarihi, sigara/fiyat bilgisi) sizin kontrolünüzdedir. Bu verileri, uygulama içindeki "Sigara İçtim" (Sıfırlama) fonksiyonunu kullanarak dilediğiniz zaman silebilirsiniz. Bu işlem, ilerlemenizi ve ilgili verileri cihazınızdan kalıcı olarak kaldırır.</p>
 
-  <h2>6. İletişim</h2>
-  <p>Herhangi bir sorunuz varsa, bizimle şu adresten iletişime geçebilirsiniz:<br>
-  📧 <a href="mailto:info@hoperizetech.com">info@hoperizetech.com</a></p>
+    <h2>6. Çocukların Gizliliği</h2>
+    <p>Uygulamamız 13 yaşın altındaki çocuklara yönelik değildir ve bilerek onlardan kişisel tanımlanabilir bilgi toplamıyoruz. Uygulamanın hedef kitlesi 18 yaş ve üzeridir.</p>
+
+    <h2>7. Gizlilik Politikasında Değişiklikler</h2>
+    <p>Bu gizlilik politikasını zamanla güncelleyebiliriz. Değişiklikler bu sayfada yeni "Son Güncelleme" tarihi ile yayınlandığı andan itibaren geçerli olacaktır.</p>
+
+    <h2>8. İletişim</h2>
+    <div class="contact-info">
+        <p>Bu gizlilik politikası hakkında herhangi bir sorunuz veya endişeniz varsa, lütfen bizimle e-posta yoluyla iletişime geçmekten çekinmeyin:</p>
+        <p>📧 <a href="mailto:info@hoperizetech.com">info@hoperizetech.com</a></p>
+    </div>
 </body>
 </html>
-
